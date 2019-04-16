@@ -81,34 +81,12 @@ body {
   text-align: center;
 }
 
-
-.aboutme {
-  font-size: 20px;
-  font-family: Comic Sans MS, sans-serif;
-  line-height: 1.5;
-
-  color: white;
-  background-color: DodgerBlue;
-
-  padding-top: 30px;
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-bottom: 0px;
-  margin-bottom: -80px;
-}
-
-.profilepic {
-  text-align: center;
-
-  margin-top: -30px;
-  padding: 0;
-  margin-bottom: -50px;
-}
-
 .background {
   background-image: url("img/Wallpaper%20copy.jpeg");
   background-size: cover;
   background-position: center;
+
+  min-width: 0.3px;
 
   padding: 335px;
   margin: 0;
@@ -129,11 +107,38 @@ body {
   margin: 0;
 }
 
+.aboutme {
+  font-size: 20px;
+  font-family: Comic Sans MS, sans-serif;
+  line-height: 1.5;
+
+  min-width: 470px;
+
+  color: white;
+  background-color: DodgerBlue;
+
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  margin-bottom: -80px;
+}
+
+.profilepic {
+  text-align: center;
+
+  margin-top: -30px;
+  padding: 0;
+  margin-bottom: -50px;
+}
+
 .workexp {
   margin-left: 90px;
   margin-right: 400px;
   margin-top: 50px;
   margin-bottom: 20px;
+
+  min-width: 500px;
 
   height: relative;
 
@@ -183,6 +188,8 @@ footer p {
   font-size: 12px;
   text-align: center;
   color: white;
+
+  min-width: 664px;
 
   padding: 3px;
   background-color: DodgerBlue;

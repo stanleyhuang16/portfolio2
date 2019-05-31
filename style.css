@@ -20,7 +20,7 @@ body {
     position: fixed;
     width: 100%;
     height: 4rem;
-    z-index: 2;
+    z-index: 99;
 }
 
 .logo-background {
@@ -174,7 +174,7 @@ body {
     text-decoration: none;
     color: black;
     text-align: center;
-    opacity: .9;
+    opacity: .93;
 }
 
 .projects-link:hover {
@@ -215,7 +215,6 @@ body {
 .fa {
     text-decoration: none;
     opacity: .8;
-    font-size: 4rem;
     margin: 0 1rem;
     transition: transform .1s;
 }
@@ -239,8 +238,48 @@ body {
     margin: 1rem auto 2rem;
 }
 
+.scroll-up {
+    font-size: 3rem;
+}
+
+.fa-angle-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
 footer {
     text-align: center;
     background: #3b5998;
     color: white;
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        padding: .6rem;
+    } 
+    .nav-links {
+        margin: .3rem;
+    }
+    .icons {
+        font-size: 2rem;
+    }
+    .scroll-up {
+        font-size: 1.5rem;
+    }
+    .fa-angle-up {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .scroll-up {
+        font-size: 2.5rem;
+    }
+    .fa-angle-up {
+        bottom: 15px;
+        right: -10px;
+    }
 }

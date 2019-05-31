@@ -8,3 +8,9 @@ function scrollFunction() {
     document.querySelector(".fa-angle-up").style.display = "none";
   }
 }
+
+// When user clicks on button, scroll to top of document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

@@ -1,16 +1,15 @@
-// When user scrolls down 100px from top of document, show button
+// When user scrolls down 100px from top of document, show arrow
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.querySelector(".fa-angle-up").style.display = "block";
+    document.querySelector(".fa-angle-up").style.visibility = "visible";
   } else {
-    document.querySelector(".fa-angle-up").style.display = "none";
+    document.querySelector(".fa-angle-up").style.visibility = "hidden";
   }
 }
 
-// When user clicks on button, scroll to top of document
+// When user clicks on arrow, scroll to top of document
 function topFunction() {
-  document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }

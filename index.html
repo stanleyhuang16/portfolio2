@@ -1,74 +1,98 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Stanley's Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <nav>
-      <a id="logo">Stanley Huang</a>
-      <a href="#workexp">Work Experience</a>
-      <a href="#aboutme">About Me</a>
-      <a href="#">Home</a>
-    </nav>
-  </head>
-
-  <body>
-    <header class="title">
-      <h2>Hi there! Welcome to my Personal Website!</h2>
-      <h5>(This is an exclusive inside look at my current progress ☺)</h5>
-    </header>
-    <div class="current">
-      <p>Here is what I'm learning:</p>
-        <p><i>HTML5</i></p>
-        <p><i>CSS3</i></p>
-        <p><i>Javascript</i></p>
-        <p><i>Front-end Web Development</i></p>
-    </div>
-    <div class="background">
-      <p class="chinese">你好! 我是黄致远!</p>
-    </div>
-
-    <section id="aboutme">
-      <div class="aboutme">
-        <h2>About Me</h2>
-        <p>My name is Stanley Huang, I'm originally from Los Angeles and I'm 22 years old. My hobbies include playing video games, watching comedy TV shows, listening to music, and exercising. I recently graduated from University of California, San Diego as an International Business major. While I really enjoyed learning about the ins and outs of marketing, finance, sales, operations, project management, etc., I would love the chance to explore a deeper interest of mine: coding! I've always wanted to do something related to tech, but I never really went for it. After graduating early from college, I've decided to take the next few months to try and learn how to code on my own. So far it's been really frustrating.. but also really fun! My goal is to become a full stack engineer for a top company. While I still have a long way to go, I think this journey will be worth pursuing.</p>
-        <div class="profilepic">
-          <img src="img/profilepic.png" alt="profilepic" height=450 width=280 />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-background">
+            <a class="logo">SH</a>
         </div>
-      </div>
-    </section>
+        <ul class="main-nav">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-links">Projects</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-links">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-    <section id="workexp">
-      <div class="workexp">
-        <h2>Work Experience</h2>
-        <h3>Digital Marketing Intern - Fidelitas Development</h3>
-          <p>January 2019 - March 2019</p>
-          <ul>
-            <li>Researched digital marketing opportunities for clients</li>
-            <li>Created email campaigns and coordinated with the Creative Team on their development and execution</li>
-            <li>Assisted with content development and digital campaigns</li>
-          </ul>
-          <h3>Financial Services Intern - Foresters Financial Services</h3>
-          <p>October 2018 - December 2018</p>
-          <ul>
-            <li>Worked directly with the Assistant Branch Manager to assess client portfolio management, review investment proposals and products, and obtain insight into the financial advising process</li>
-            <li>Attended in-person meetings and conference calls with branch managers and associates regarding retirement plans, mutual funds, strategic asset allocation, life insurance, and college planning</li>
-            <li>Presented a comprehensive analysis of a life insurance case study to senior management and provided detailed recommendations to benefit the prospective client’s financial situation</li>
-          </ul>
-          <h3>Marketing/Social Media Intern - Media Arts Center San Diego</h3>
-          <p>September 2018 - December 2018</p>
-          <ul>
-            <li>Worked directly with the Marketing Manager to oversee daily operations and support project alignment efforts with the company’s mission to promote access to media in the local community</li>
-            <li>Managed the organization’s Facebook accounts, advertising posts that reached about 15,000 viewers and accumulated over 4,300 post engagements (a 29% increase) over a 28-day period</li>
-            <li>Maintained Twitter and Instagram accounts via Hootsuite, a social media engagement platform, creating 3-5 posts a day which resulted in 50,900 Twitter views per month (1,700 times per day)</li>
-          </ul>
-      </div>
-      <p id="linkedin">Please feel free to contact me via <a href="https://www.linkedin.com/in/stanleyhuang16/" target="_blank">LinkedIn</a>.
-    </section>
+    <div id="cover">
+        <div class="cover-text">
+            <h1>Stanley Huang</h1>
+            <p>Aspiring Web Developer</p>
+            <div class="scroll-down-arrow"></div>
+        </div>
+    </div>
 
-  </body>
-  <footer>
-    <p>Stanley Huang, Copyright &copy 2019</p>
-  </footer>
+    <div id="about">
+        <h1 class="section-title">About Me</h1>
+        <img src="./img/profile-pic.png" alt="Profile Pic" width=220 height=300>
+        <p>
+        Hi, I’m Stanley! I am 22 years old and originally from Los Angeles, CA. 
+        I recently graduated from University of California, San Diego as an International Business major. 
+        My hobbies include watching TV shows, listening to music, and exercising. 
+        While I really enjoyed learning about marketing, finance, sales, project management, etc., I wanted to explore a deeper interest of mine: coding! 
+        After graduating a quarter early from college, I decided to take the plunge into learning web development by teaching myself HTML, CSS, and JavaScript (loving it so far). 
+        My goal is to eventually become a full stack developer.
+        </p>
+    </div>
+
+    <div id="projects">
+        <div class="projects-text">
+            <h1 class="section-title">Projects</h1>
+            <div class="projects-flex">
+                <div class="flex">
+                    <a href="https://stanleyhuang16.github.io/musical-note/" target="_blank" class="projects-link">
+                        <img src="./img/musical-note.png" alt="Musical Note" class="projects-image">
+                        <h2>Musical Note</h2>
+                        <p>Digital music app that allows users to play music with just a tap</p>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://stanleyhuang16.github.io/product-landing-page/" target="_blank" class="projects-link">
+                        <img src="./img/product-landing.png" alt="Product Landing Page" class="projects-image">
+                        <h2>Product Landing Page</h2>
+                        <p>Hypothetical product landing page for commercial space flights</p>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://stanleyhuang16.github.io/survey-form/" target="_blank" class="projects-link">
+                        <img src="./img/survey-form.png" alt="Survey Form" class="projects-image">
+                        <h2>Survey Form</h2>
+                        <p>Hypothetical survey form that imitates Google Forms</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h1 class="section-title">Contact</h1>
+        <div class="contact-text">
+            <p>I am currently looking for front-end development opportunities. I enjoy meeting and engaging with new people, so please feel free to reach out via any of the platforms below!</p>
+        </div>
+        <div class="icons">
+            <a href="mailto:stanleyhuang16@gmail.com" class="fa fa-envelope"></a>
+            <a href="https://www.dropbox.com/s/3k0u6ow3z93plss/Stanley%20Huang%20-%20Resume.pdf?raw=1" target="_blank" class="fa fa-file"></a>
+            <a href="https://www.linkedin.com/in/stanleyhuang16/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/stanleyhuang16" target="_blank" class="fa fa-github"></a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
 </html>

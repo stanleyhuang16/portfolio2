@@ -238,3 +238,9 @@ body {
     width: 6rem;
     margin: 1rem auto 2rem;
 }
+
+#copyright {
+    text-align: center;
+    background: #3b5998;
+    color: white;
+}

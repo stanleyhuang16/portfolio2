@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(260deg, #8e9eab 0%, #eef2f3 100%);
+    background: linear-gradient(260deg, #757f9a 0%, #d7dde8 100%);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -29,14 +29,12 @@ body {
 }
 
 .logo {
-    color: white;
     text-decoration: none;
-    border: 2px solid white;
-    background: #bdc3c7;
+    color: #757f9a;
+    border: 2px solid #757f9a;
     border-radius: 50%;
     margin-left: 1rem;
     padding: .8rem;
-    opacity: .8;
 }
 
 .main-nav {
@@ -159,7 +157,7 @@ body {
 
 .flex {
     text-align: center;
-    background: lightgrey;
+    background: #d7dde8;
     margin: 0 3rem 4rem;
     box-shadow: 0 0 5px grey;
     width: 80%;
@@ -187,7 +185,7 @@ body {
 }
 
 #contact {
-    background: #8e9eab;
+    background: #757f9a;
     padding: 4rem 0;
 }
 
@@ -197,7 +195,7 @@ body {
 
 .contact-text {
     font-size: 1.5rem;
-    background: #3b5998;
+    background: #551a8b;
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
@@ -214,9 +212,10 @@ body {
 
 .fa {
     text-decoration: none;
-    opacity: .8;
+    opacity: .9;
     margin: 0 1rem;
     transition: transform .1s;
+    color: #551a8b;
 }
 
 .fa:hover {
@@ -248,11 +247,12 @@ body {
     bottom: 30px;
     right: 30px;
     cursor: pointer;
+    color: black;
 }
 
 footer {
     text-align: center;
-    background: #3b5998;
+    background: #551a8b;
     color: white;
 }
 

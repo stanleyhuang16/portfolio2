@@ -281,6 +281,6 @@ footer {
     }
     .fa-angle-up {
         bottom: 15px;
-        right: -10px;
+        right: 0;
     }
 }

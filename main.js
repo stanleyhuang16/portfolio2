@@ -1,4 +1,20 @@
-// When user scrolls down 100px from top of document, show arrow
+function scrollToTop() {
+    document.querySelector('body').scrollIntoView();
+}
+
+function scrollAbout() {
+    document.getElementById('about').scrollIntoView();
+}
+
+function scrollProjects() {
+    document.getElementById('projects').scrollIntoView();
+}
+
+function scrollContact() {
+    document.getElementById('contact').scrollIntoView();
+}
+
+// When user scrolls down 100px from top of document, show arrow icon
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -7,9 +23,4 @@ function scrollFunction() {
   } else {
     document.querySelector(".fa-angle-up").style.visibility = "hidden";
   }
-}
-
-// When user clicks on arrow, scroll to top of document
-function topFunction() {
-  document.documentElement.scrollTop = 0;
 }

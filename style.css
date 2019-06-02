@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     margin: 0 .5rem;
     opacity: .8;
+    cursor: pointer;
 }
 
 .nav-links:hover {
@@ -102,8 +103,16 @@ body {
     background: #eef2f3;
 }
 
-#about h1 {
+.header {
     text-align: center;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid;
+    width: 6rem;
+    margin: 1rem auto 2rem;
 }
 
 #about img {
@@ -135,17 +144,16 @@ body {
     align-items: center;
 }
 
-.projects-text {
+#projects .header {
+    margin: 2rem 0;
+}
+
+.projects-container {
     background:#eef2f3;
     width: 80%;
     margin: 5rem 0;
     box-shadow: 0 0 5px grey;
     opacity: .98;
-}
-
-#projects h1 {
-    text-align: center;
-    margin: 2rem auto;
 }
 
 .projects-flex {
@@ -158,9 +166,9 @@ body {
 .flex {
     text-align: center;
     background: #d7dde8;
-    margin: 0 3rem 4rem;
     box-shadow: 0 0 5px grey;
-    width: 80%;
+    width: 78%;
+    margin: 0 auto 5rem;
     transition: transform .1s;
 }
 
@@ -186,11 +194,7 @@ body {
 
 #contact {
     background: #757f9a;
-    padding: 4rem 0;
-}
-
-#contact h1 {
-    text-align: center;
+    padding: 2rem 0;
 }
 
 .contact-text {
@@ -229,15 +233,7 @@ body {
     margin-top: 1rem;
 }
 
-.section-title::after {
-    content: '';
-    display: block;
-    border-bottom: 2px solid;
-    width: 6rem;
-    margin: 1rem auto 2rem;
-}
-
-.scroll-up {
+.arrow-icon {
     font-size: 3rem;
 }
 
@@ -257,6 +253,9 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+    .cover-text {
+        font-size: 1.5rem;
+    }
     .logo {
         padding: .6rem;
     } 
@@ -266,7 +265,7 @@ footer {
     .icons {
         font-size: 2rem;
     }
-    .scroll-up {
+    .arrow-icon {
         font-size: 1.5rem;
     }
     .fa-angle-up {
@@ -276,7 +275,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .scroll-up {
+    .flex {
+        margin: 0 auto 2.5rem;
+    }
+    .arrow-icon {
         font-size: 2.5rem;
     }
     .fa-angle-up {

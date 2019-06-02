@@ -16,16 +16,16 @@
         </div>
         <ul class="main-nav">
             <li>
-                <a href="#" class="nav-links">Home</a>
+                <a onclick="scrollToTop()" class="nav-links">Home</a>
             </li>
             <li>
-                <a href="#about" class="nav-links">About</a>
+                <a onclick="scrollAbout()" class="nav-links">About</a>
             </li>
             <li>
-                <a href="#projects" class="nav-links">Projects</a>
+                <a onclick="scrollProjects()" class="nav-links">Projects</a>
             </li>
             <li>
-                <a href="#contact" class="nav-links">Contact</a>
+                <a onclick="scrollContact()" class="nav-links">Contact</a>
             </li>
         </ul>
     </nav>
@@ -39,7 +39,7 @@
     </div>
 
     <div id="about">
-        <h1 class="section-title">About Me</h1>
+        <h1 class="header">About Me</h1>
         <img src="./img/profile-pic.png" alt="Profile Pic" width=220 height=300>
         <p>
         Hi, I’m Stanley! I am 22 years old and originally from Los Angeles, CA. 
@@ -52,8 +52,8 @@
     </div>
 
     <div id="projects">
-        <div class="projects-text">
-            <h1 class="section-title">Projects</h1>
+        <div class="projects-container">
+            <h1 class="header">Projects</h1>
             <div class="projects-flex">
                 <div class="flex">
                     <a href="https://stanleyhuang16.github.io/musical-note/" target="_blank" class="projects-link">
@@ -81,7 +81,7 @@
     </div>
 
     <div id="contact">
-        <h1 class="section-title">Contact</h1>
+        <h1 class="header">Contact</h1>
         <div class="contact-text">
             <p>I am currently looking for front-end development opportunities. I enjoy meeting and engaging with new people, so please feel free to reach out via any of the platforms below!</p>
         </div>
@@ -93,8 +93,8 @@
         </div>
     </div>
 
-    <div class="scroll-up">
-        <i class="fa fa-angle-up" onclick="topFunction()"></i>
+    <div class="arrow-icon">
+        <i onclick="scrollToTop()" class="fa fa-angle-up"></i>
     </div>
 
     <script src="main.js"></script>

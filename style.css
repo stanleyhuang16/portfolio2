@@ -194,7 +194,7 @@ body {
 
 #contact {
     background: #757f9a;
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 .contact-text {
@@ -275,6 +275,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    #about p, 
+    .contact-text p {
+        font-size: 1rem;
+        line-height: 150%;
+    }
     .flex {
         margin: 0 auto 2.5rem;
     }

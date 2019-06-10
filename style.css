@@ -59,7 +59,7 @@ body {
 }
 
 #cover {
-    background-image: url('./img/intro-pic.jpg');
+    background-image: url('img/intro-pic.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -134,7 +134,7 @@ body {
 }
 
 #projects {
-    background-image: url('./img/experience-pic.jpg');
+    background-image: url('img/experience-pic.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -18,9 +18,9 @@ function scrollContact() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.querySelector(".fa-angle-up").style.visibility = "visible";
-  } else {
-    document.querySelector(".fa-angle-up").style.visibility = "hidden";
-  }
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+		document.querySelector(".fa-angle-up").style.visibility = "visible";
+	} else {
+		document.querySelector(".fa-angle-up").style.visibility = "hidden";
+	}
 }

@@ -1,4 +1,4 @@
 # Portfolio 2
-Utilized HTML5, CSS3, and JavaScript
+Second personal website coded from scratch using no frameworks
 
-Responsive personal website coded from scratch using no frameworks
+Utilized HTML5, CSS3, and JavaScript

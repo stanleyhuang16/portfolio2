@@ -1,4 +1,4 @@
-# Portfolio 2
-Second personal website coded from scratch using no frameworks
+# Current Portfolio
+Second personal website coded from scratch
 
-Utilized HTML5, CSS3, and JavaScript
+Utilized HTML5, CSS3 (no frameworks), and JavaScript

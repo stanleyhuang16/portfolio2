@@ -15,7 +15,9 @@ function scrollContact() {
 }
 
 // When user scrolls down 100px from top of document, show arrow icon
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction()
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
